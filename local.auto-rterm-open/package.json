@@ -1,0 +1,20 @@
+{
+    "name": "auto-rterm-open",
+    "displayName": "Auto Open R Terminal",
+    "description": "Automatically starts an R terminal when opening .R or .qmd files.",
+    "version": "0.0.1",
+    "publisher": "local",
+    "engines": {
+        "vscode": "^1.90.0"
+    },
+    "categories": [
+        "Other"
+    ],
+    "activationEvents": [
+        "onStartupFinished"
+    ],
+    "extensionDependencies": [
+        "REditorSupport.r"
+    ],
+    "main": "./extension.js"
+}
